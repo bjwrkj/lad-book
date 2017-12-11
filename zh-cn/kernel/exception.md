@@ -17,8 +17,8 @@
 
 The 80386 has two mechanisms for interrupting program execution:
 
-    1. Exceptions are synchronous events that are the responses of the CPU to certain conditions
-	detected during the execution of an instruction.
+    1. Exceptions are synchronous events that are the responses of the CPU to 
+	certain conditions detected during the execution of an instruction.
 
     2. Interrupts are asynchronous events.
 
