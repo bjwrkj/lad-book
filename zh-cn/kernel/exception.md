@@ -402,5 +402,5 @@ BitKeeper 是垃圾，先忍忍吧，现在贡献的人还不是很多，等我�
 
 ## 参考资料
 
-- INTEL 80386 PROGRAMMER'S REFERENCE MANUAL 1986, http://css.csail.mit.edu/6.858/2013/readings/i386.pdf
-- Linux 内核完全注释 - 赵炯, http://oldlinux.org/book.html
+- INTEL 80386 PROGRAMMER'S REFERENCE MANUAL 1986
+- Linux 内核完全注释, 赵炯, 机械工业出版社, 2004
