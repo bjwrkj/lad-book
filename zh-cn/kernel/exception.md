@@ -1,4 +1,4 @@
-﻿# 异常处理
+# 异常处理
 
 在 Linux 0.11 的代码树中，内核异常处理的服务程序分别是 trap.c 以及 panic.c，trap.c 中通过中断将硬件的异常 分别做了处理，panic 则实现了内核的异常处理接口。
 
@@ -20,9 +20,8 @@ The 80386 has two mechanisms for interrupting program execution:
     1. Exceptions are synchronous events that are the responses of the CPU to certain conditions detected during the execution of an instruction.
     2. Interrupts are asynchronous events.
 
-    Interrupts and exceptions are alike in that both cause the processor to temporarily suspend its present program execution in order to execute a program of higher priority.
-The major distinction between these two kinds of interrupts is their origin. An exception is always reproducible by re-executing with the program and data that caused the exception,
-whereas an interrupt is generally independent of the currently executing program.
+Interrupts and exceptions are alike in that both cause the processor to temporarily suspend its present program execution in order to execute a program of higher priority.
+The major distinction between these two kinds of interrupts is their origin. An exception is always reproducible by re-executing with the program and data that caused the exception, whereas an interrupt is generally independent of the currently executing program.
 
 Application programmers are not normally concerned with servicing interrupts. More information on interrupts for systems programmers may be found in Chapter 9. Certain exceptions, however,are of interest to applications programmers,and many operating systems give applications programs the opportunity to service these exceptions. However,the operating system itself defines the interface between the applications programs and the exception mechanism of the 80386.
 
