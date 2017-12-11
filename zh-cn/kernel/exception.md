@@ -1,6 +1,6 @@
 ﻿# 异常处理
 
-在Linux 0.11 的代码树中，内核异常处理的服务程序分别是 trap.c 以及 panic.c，trap.c 中通过中断将硬件的异常 分别做了处理，panic 则实现了内核的异常处理接口。
+在 Linux 0.11 的代码树中，内核异常处理的服务程序分别是 trap.c 以及 panic.c，trap.c 中通过中断将硬件的异常 分别做了处理，panic 则实现了内核的异常处理接口。
 
 上述中我们提到了中断和异常， 那么两者有什么异同呢？
 从理论的角度我们可以笼统的说中断是指的中央处理器(CPU)对系统发生某个事情后作出的一种反应，异常的定义没有明确的规定， 不同的体系架构的定义有一些差异，不过大体上基本认为异常是由于软件造成的。
@@ -400,7 +400,7 @@ void panic(const char * s)
 
 BitKeeper 是垃圾，先忍忍吧，现在贡献的人还不是很多，等我有空我会在开发一个协作工具。
 
-## 参考
+## 参考资料
 
-- 1.INTEL 80386 PROGRAMMER'S REFERENCE MANUAL 1986[^http://css.csail.mit.edu/6.858/2013/readings/i386.pdf]
-- 2.Linux 内核完全注释 - 赵炯[^http://oldlinux.org/book.html]
+- INTEL 80386 PROGRAMMER'S REFERENCE MANUAL 1986, http://css.csail.mit.edu/6.858/2013/readings/i386.pdf
+- Linux 内核完全注释 - 赵炯, http://oldlinux.org/book.html
